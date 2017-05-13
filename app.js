@@ -10,7 +10,7 @@ app.set('port', (process.env.PORT || 5000));
 
 var testing = [];
 /*FeedParser Test Code*/
-app.get('/feedparser', function(req1,res1){
+app.get('/', function(req1,res1){
 var url = req1.query.url;
 var req = request(url);
 var feedparser = new FeedParser();
