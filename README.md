@@ -12,7 +12,7 @@ This is based loosely on the rss2js project found here: https://github.com/mapsa
 
 # Usage
 
-Just make an HTTP GET request to mmt-rss-reader.herokuapp.com/feedparser?url=https://Your.URL.HERE.com
+Just make an HTTP GET request to mmt-rss-reader.herokuapp.com?url=https://Your.URL.HERE.com
 
 Please only use the above url for testing purposes. For production use, please deploy the app on your own heroku instance:
 
