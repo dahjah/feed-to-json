@@ -12,8 +12,11 @@ var testing = [];
 /*FeedParser Test Code*/
 app.get('/', function(req1,res1){
 var url = req1.query.url;
-  if(!url.match("^(http://|https://|ftp://|//).*$")){
-  url = 'http://'+url;
+  if(!url.match("^(http|https|ftp)://.*$")){
+    var protocol = 'http://';
+    if(url.indexOf('//') == 0)
+      protocol = 'http:';
+  url = protocol+url;
   }
 var req = request(url);
 var feedparser = new FeedParser();
