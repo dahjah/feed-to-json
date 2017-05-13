@@ -1,0 +1,18 @@
+{
+  "name": "feed-to-json-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "request": "^2.79.0",
+    "feedparser":"2.2.0"
+  }
+}
