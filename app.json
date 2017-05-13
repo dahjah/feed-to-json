@@ -1,0 +1,8 @@
+{
+  "name": "Feed To JSON",
+  "description": "An app to convert a feed presented in a URL to a JSON object",
+  "repository": "https://github.com/dahjah/mmt-rss-reader",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "feedparser"],
+  "image": "heroku/nodejs"
+}
